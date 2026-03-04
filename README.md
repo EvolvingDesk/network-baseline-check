@@ -1,24 +1,39 @@
-# Network Baseline Check
+Status, starter template
+Not production ready
 
-Simple network audit tool for small business environments.
+# Network Audit Template
 
-Helps IT administrators quickly identify common network issues.
+Starter template for a small network audit tool.
 
-## Features
+## Goal
 
-• Scan common ports  
-• Detect active hosts  
-• Identify open services  
-• Simple network overview  
+Provide a basic structure for host discovery, service checks, and reporting.
 
-## Usage
+## Intended checks
 
-python network_check.py 192.168.1.0/24
+• Host discovery  
+• Common port checks  
+• Basic DNS checks  
+• Simple summary report  
+
+## Inputs
+
+Define target range, for example CIDR, host list, or inventory export.
 
 ## Output
 
-A list of reachable hosts and detected open ports.
+Define your report format, for example console output, JSON, or CSV.
 
-## About
+## Exit codes
 
-Created by EvolvingDesk.
+0 ok  
+1 warning  
+2 critical  
+
+## Quick start
+
+Explain how to run the template locally.
+
+## Disclaimer
+
+This repository is a starter template and is not production ready.
